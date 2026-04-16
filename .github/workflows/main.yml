@@ -1,6 +1,6 @@
 name: Windows - Litemanager 
 on:
- workflow dispatch:
+  workflow dispatch:
 
 jobs: 
   build: 
