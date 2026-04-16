@@ -1,6 +1,10 @@
-name: Windows - Litemanager on:
+name: Windows - Litemanager 
+on:
 workflow dispatch:
-jobs: build: name: Start Building...
+
+jobs: 
+build: 
+name: Start Building...
 runs-on: windows-latest
 steps:
 - name: Downloading & installing Essentials
